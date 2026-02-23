@@ -236,3 +236,50 @@ button {
   color: black;
   transform: scale(1.05);
 }
+
+/* 404 Page Styling */
+.notfound-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  text-align: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.error-code {
+  font-size: 120px;
+  color: yellow;
+  margin: 0;
+  text-shadow: 0 0 20px yellow;
+}
+
+.error-title {
+  font-size: 28px;
+  margin: 10px 0;
+  color: white;
+}
+
+.error-message {
+  color: #ccc;
+  margin-bottom: 25px;
+  max-width: 400px;
+}
+
+.home-btn {
+  background: yellow;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.home-btn:hover {
+  background: orange;
+  transform: scale(1.08);
+  box-shadow: 0 0 15px yellow;
+}
