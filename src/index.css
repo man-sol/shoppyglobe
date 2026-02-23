@@ -123,3 +123,21 @@ body {
   background: orange;
   transform: scale(1.05);
 }
+
+/* Add to Cart Button */
+.cart-btn {
+  background: black;
+  color: yellow;
+  border: 1px solid yellow;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cart-btn:hover {
+  background: yellow;
+  color: black;
+  transform: scale(1.05);
+}
