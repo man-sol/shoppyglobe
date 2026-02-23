@@ -186,3 +186,19 @@ button {
   font-weight: bold;
   margin-top: 5px;
 }
+
+/* Controls Section */
+.cart-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* spacing between + - remove */
+}
+
+/* Quantity Number */
+.quantity {
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+  min-width: 25px;
+  text-align: center;
+}
