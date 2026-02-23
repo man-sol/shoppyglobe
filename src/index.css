@@ -106,3 +106,20 @@ body {
   gap: 12px; /* spacing between buttons */
   margin-top: 10px;
 }
+
+
+/* View Button */
+.view-btn {
+  background: yellow;
+  color: black;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.view-btn:hover {
+  background: orange;
+  transform: scale(1.05);
+}
