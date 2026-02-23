@@ -158,3 +158,20 @@ button {
     grid-template-columns: 1fr;
   }
 }
+
+/* Cart Card */
+.cart-card {
+  background: #111;
+  border: 1px solid yellow;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.cart-card:hover {
+  box-shadow: 0 0 15px yellow;
+}
