@@ -219,3 +219,20 @@ button {
   color: black;
   transform: scale(1.1);
 }
+
+/* Remove Button */
+.remove-btn {
+  background: #330000;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.remove-btn:hover {
+  background: #ff4d4d;
+  color: black;
+  transform: scale(1.05);
+}
