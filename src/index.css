@@ -141,3 +141,20 @@ body {
   color: black;
   transform: scale(1.05);
 }
+
+/* General Button */
+button {
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
