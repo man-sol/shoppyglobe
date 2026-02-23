@@ -175,3 +175,14 @@ button {
 .cart-card:hover {
   box-shadow: 0 0 15px yellow;
 }
+
+/* Info Section */
+.cart-info h3 {
+  margin: 0;
+}
+
+.cart-price {
+  color: yellow;
+  font-weight: bold;
+  margin-top: 5px;
+}
