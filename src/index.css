@@ -91,3 +91,18 @@ body {
   object-fit: contain;
   margin-bottom: 10px;
 }
+
+/* Price */
+.price {
+  font-size: 18px;
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Button Group */
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px; /* spacing between buttons */
+  margin-top: 10px;
+}
